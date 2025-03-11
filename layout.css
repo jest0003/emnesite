@@ -1,0 +1,12 @@
+/* mobile first*/
+
+/*størrer skærme*/
+* {max-width: 1000px}
+@media (width>=600px;) {
+    main {max-width: 1000px;}
+}
+html, body {height: 100%;}
+        html {display: table;
+        margin: auto;}
+        body {display: table-cell;
+        vertical-align: middle;}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/knapper/style01BG.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: box;
+}
+@font-face {
+    font-family: niconne;
+    src: url(/fonts/Niconne/Niconne-Regular.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(/fonts/Roboto/static/Roboto-Regular.ttf);
+}
+h1 {font-family: niconne;
+font-size: 48px;
+text-align: center;}
+h2 {font-family: niconne;
+font-size: 36px;}
+h3 {font-family: niconne;
+font-size: 32px;}
+p {font-family: roboto;
+font-size: 16px;}
