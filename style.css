@@ -27,7 +27,9 @@ font-size: 48px;
 text-align: center;
 padding: 1rem;}
 h2 {font-family: niconne;
-font-size: 36px;}
+font-size: 36px;
+padding-left: 0.5rem;
+padding-top: 0.5rem;}
 h3 {font-family: niconne;
 font-size: 32px;}
 p {font-family: roboto;
