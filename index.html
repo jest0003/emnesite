@@ -6,6 +6,7 @@
     <title>Syskrinet</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/layout.css" />
+    
 
     <link rel="icon" type="image/png" href="favicon_syskrin/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="favicon_syskrin/favicon.svg" />
@@ -16,12 +17,25 @@
   </head>
   <body>
     <header>
+      <div class="off-screen-menu">
+        <ul>
+          <li><a class="ham_hover" href="tekstiler.html">Tekstiler</a></li>
+          <li><a class="ham_hover" href="fdb.html">Før du begynder</a></li>
+          <li><a class="ham_hover" href="leksikon.html">Leksikon</a></li>
+        </ul>
+      </div>
       <nav>
         <div>
-          <img src="img/logo/logo.webp" alt="et logo i form af et syskrin" />
+          <img class="logo" src="img/logo/logo.webp" alt="et logo i form af et syskrin" />
           <h1>Syskrinet</h1>
         </div>
+        <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
+      <script src="move.js"></script>
     </header>
     <main>
       <section>
