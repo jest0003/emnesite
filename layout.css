@@ -1,6 +1,9 @@
 /* mobile first*/
-.logo {max-width: 64px;}
-.off-screen-menu {
+.logo {max-width: 64px;
+max-height: 64px;}
+
+/*Hamburger menu*/
+.off-screen-menu {display: flex;
     background-color: #D9DBBC;
     height: 100vh;
     width: 100%;
@@ -17,11 +20,6 @@
 }
 .off-screen-menu.active {
    right: 0; 
-}
-nav {
-    padding: 1rem;
-    display: flex;
-    background-color: #B8D8BA;
 }
 .ham-menu {
     height: 50px;
@@ -59,6 +57,14 @@ nav {
 .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+}
+nav {
+    padding: 1rem;
+    display: flex;
+    background-color: #B8D8BA;
+}
+.nav_h {
+    flex-direction: row;
 }
 /*størrer skærme*/
 * {max-width: 1000px}
