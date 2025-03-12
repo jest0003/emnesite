@@ -1,10 +1,15 @@
-* {max-width: 1000px}
+* 
 .logo {max-width: 64px;
     max-height: 64px;}
     .flex_cta_n {
         display: flex;
         justify-content: center;
     }
+    .grid_1-5 {display: grid;
+    grid-template-columns: 1fr 5fr;}
+    .fullsize {display: block;
+        max-width: 100%;
+        width: 100%;}
 /* mobile first*/
 @media (max-width: 600px)
 {
@@ -76,17 +81,20 @@ nav {
     flex-direction: row;
 }
 /*størrer skærme*/
-@media (min-width: 600px;) {
+@media (min-width: 600px) {
     main {max-width: 1000px;}
     .ham-menu {
         display: none;
     }
     .off-screen-menu,
     .ham_hover {display: none;}
-}
-
-html, body {height: 100%;}
+    html, body {height: 100%;}
         html {display: table;
         margin: auto;}
         body {display: table-cell;
         vertical-align: middle;}
+        .mw_600 {display: block;
+            max-width: 600px;
+        text-align: center;}
+}
+

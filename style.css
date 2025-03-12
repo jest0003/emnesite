@@ -11,6 +11,7 @@
     .ham_hover:hover {display: block;
     background-color: #B8D8BA;
     }
+    .brun {color: #69585F;}
 }
 body {background-image: url(img/knapper/style01BG.webp);
     background-repeat: no-repeat;
